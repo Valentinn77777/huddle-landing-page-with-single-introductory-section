@@ -148,6 +148,7 @@ body {
 
     width: 240px;
 
+    position: unset;
     display: flex;
     justify-content: center;
 
@@ -166,6 +167,7 @@ body {
 
     width: 270px;
 
+    position: unset;
     display: flex;
     justify-content: center;
 
@@ -191,8 +193,8 @@ body {
 }
 
 .Icons {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
 
     display: flex;
     flex-direction: row;
@@ -200,7 +202,7 @@ body {
     gap: 10px;
 
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 220px;
 }
 
 }
