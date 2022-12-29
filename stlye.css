@@ -1,0 +1,207 @@
+@font-face {
+    font-family: Popins;
+    src: url(./Fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(./Fonts/OpenSans-Regular.ttf);
+}
+
+body {
+    background-image: url("./images/bg-desktop.svg");
+    background-color: hsl(257, 40%, 49%);
+
+    height: 100vh;
+    width: 100vw;
+
+    flex-direction: row;
+}
+
+.Title_Img {
+    height: 170px;
+    width: 170px;
+
+    display: flex;
+    justify-content: left;
+
+    margin-top: -30px;
+    margin-left: 50px;
+}
+
+.Ilustation_Img {
+    height: 450px;
+    width: 750px;
+
+    display: flex;
+    justify-content: left;
+
+    margin-left: 50px;
+}
+
+.Middle {
+    font-family: Popins;
+    font-size: 40px;
+    font-weight: 400, 600;
+    color: white;
+
+    width: 400px;
+
+    position: absolute;
+    margin-top: -420px;
+    margin-left: 850px;
+}
+
+.center {
+    font-family: OpenSans;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400, 600;
+    color: white;
+
+    opacity: 0.6;
+
+    width: 450px;
+
+    position: absolute;
+    margin-top: -280px;
+    margin-left: 850px;
+}
+
+.Reg_Button {
+    font-family: OpenSans;
+    color: hsl(257, 40%, 49%);
+
+    background-color: white;
+
+    border-radius: 30px;
+    border-color: transparent;
+
+    height: 50px;
+    width: 160px;
+
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 850px;
+
+    cursor: pointer;
+}
+
+.Reg_Button:hover {
+    background-color: hsl(300, 69%, 71%);
+}
+
+.Icons {
+    height: 30px;
+    width: 30px;
+
+    display: flex;
+    gap: 10px;
+
+    margin-left: 1350px;
+
+    cursor: pointer;
+}
+
+@media (max-width: 375px) {
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; background-size: cover;
+    background-image: url("./images/bg-mobile.svg");
+    background-color: hsl(257, 40%, 49%);
+
+    height: 135vh;
+    width: 100vw;
+
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Title_Img {
+    height: 100px;
+    width: 100px;
+
+    margin-top: -20px;
+    margin-left: -5px;
+}
+
+.Ilustation_Img {
+    height: 170px;
+    width: 270px;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 0 auto;
+}
+
+.Middle {
+    font-family: Popins;
+    font-size: 23px;
+    font-weight: 400, 600;
+    color: white;
+
+    width: 240px;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.center {
+    font-family: OpenSans;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400, 600;
+    color: white;
+
+    opacity: 0.6;
+
+    width: 270px;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.Reg_Button {
+    font-family: OpenSans;
+    color: hsl(257, 40%, 49%);
+
+    background-color: white;
+
+    border-radius: 30px;
+    border-color: transparent;
+
+    height: 50px;
+    width: 220px;
+
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.Icons {
+    height: 20px;
+    width: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+}
+
